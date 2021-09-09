@@ -20,6 +20,9 @@ public class Seller {
     @Getter
     @Setter
     private Long id;
+
+    @Getter
+    @Setter
     private String name;
 
     @OneToMany(mappedBy = "seller")
